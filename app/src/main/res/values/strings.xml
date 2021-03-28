@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Chat2Relax</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Goldy Gopher</string>
+    <string name="nav_header_subtitle">test@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="post">Post Sessions</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_job">Job Seeking</string>
+    <string name="menu_peer">Peer Pressures</string>
+    <string name="menu_health">Health Concerns</string>
+    <string name="menu_funding">Funding Issues</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="menu_help">Help</string>
+    <string name="chat">Chat</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Profile</string>
+    <string name="sync_header">Description</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your username</string>
+    <string name="description_">Your description</string>
+    <string name="reply_title">Status</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="call">This is an <u>underline</u>.</string>
+    <string name="account_problem"> Manage your email addresses\n\n
+        Manage your information \n\n
+        Accessibility settings \n\n
+        Find your Android device \n\n
+        About Inactive Account Manager \n\n
+        Manage your location \n\n
+        Signing in settings \n\n
+        Change your language on the web</string>
+    <string name="privacy_problem">
+    Find, download &amp; delete data\n\n
+    Manage your account permissions\n\n
+    Manage your location settings &amp; data\n\n
+    Delete your HelpMeRelax Account or HelpMeRelax services</string>
+    <string name="other_problem">
+    Age requirements on HelpMeRelax Accounts \n\n
+    Using HelpMeRelax products with your HelpMeRelax Account \n\n
+    Purchase, cancellation &amp; refund policies \n\n
+    Make HelpMeRelax your homepage</string>
+    <string name="FAQ"> Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.\n\n
+Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.\n\n
+But, in a larger sense, we can not dedicate — we can not consecrate — we can not hallow — this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us — that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion — that we here highly resolve that these dead shall not have died in vain — that this nation, under God, shall have a new birth of freedom — and that government of the people, by the people, for the people, shall not perish from the earth.</string>
+    <string name="CustomerName">Customer Name</string>
+    <string name="CustomerAge">Age</string>
+    <string name="ActiveCustomer">Active Customer</string>
+    <string name="ViewAll">View All</string>
+    <string name="ADD">ADD</string>
+    <string name="sw_anonymous">Anonymous post</string>
+    <string name="Delete_Post">Delete Post</string>
+    <string name="other">Other</string>
+    <string name="log_out">Log Out</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">New user? Sign up now!</string>
+    <string name="action_sign_in_google">Sign in with Google</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+</resources>

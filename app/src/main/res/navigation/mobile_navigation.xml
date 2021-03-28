@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.HelpMeRelax_v1_0.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.example.HelpMeRelax_v1_0.ui.home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.HelpMeRelax_v1_0.ui.logout.LogoutFragment"
+        android:label="Log Out"
+        tools:layout="@layout/fragment_logout" />
+
+    <fragment
+        android:id="@+id/nav_job"
+        android:name="com.example.HelpMeRelax_v1_0.ui.job.JobFragment"
+        android:label="@string/menu_job"
+        tools:layout="@layout/fragment_job" />
+
+
+    <fragment
+        android:id="@+id/nav_funding"
+        android:name="com.example.HelpMeRelax_v1_0.ui.funding.FundingFragment"
+        android:label="@string/menu_funding"
+        tools:layout="@layout/fragment_funding" />
+    <fragment
+        android:id="@+id/nav_peer"
+        android:name="com.example.HelpMeRelax_v1_0.ui.peer.PeerFragment"
+        android:label="@string/menu_peer"
+        tools:layout="@layout/fragment_peer" />
+    <fragment
+        android:id="@+id/nav_Health"
+        android:name="com.example.HelpMeRelax_v1_0.ui.health.HealthFragment"
+        android:label="@string/menu_health"
+        tools:layout="@layout/fragment_health" />
+
+    <fragment
+        android:id="@+id/nav_Help"
+        android:name="com.example.HelpMeRelax_v1_0.ui.Help.HelpFragment"
+        android:label="@string/menu_help"
+        tools:layout="@layout/fragment_help" />
+
+</navigation>
