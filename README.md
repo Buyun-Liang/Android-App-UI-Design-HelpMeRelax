@@ -5,7 +5,8 @@ The main goal of this social media android app is to help students share their f
 * [General Information](#general-information)
 * [Screenshots](#screenshots)
 * [File Description](#file-description)
-* [Code Examples](#code-examples)
+* [App Demo](#app-demo)
+* [Usage](#usage)
 * [Contact](#contact)
 
 ## General Information
@@ -18,6 +19,13 @@ What we have done:
 3. Designed the post sessions and reply sessions which could perform CRUD operations by using SQLite as local storage
 
 ## File Description
+In app/src/java/com/example/HelpMeRelax_v_1_0:
+
+1. Welcome, SignUp, LoginActivity: Activity class for 3 screens: Welcome, Signup, Login.
+
+2. PostModel, ReplyModel:  
+
+3. PostDBHelper, ReplyDBHelper: Providing helpful methods for performing CRUD operations on the *post.db* and *reply.db* databases
  
 
 ## App Demo 
