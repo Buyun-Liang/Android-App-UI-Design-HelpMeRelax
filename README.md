@@ -3,7 +3,6 @@ The main goal of this social media android app is to help students share their f
 
 ## Table of contents
 * [General Information](#general-information)
-* [Screenshots](#screenshots)
 * [File Description](#file-description)
 * [App Demo](#app-demo)
 * [Usage](#usage)
@@ -21,11 +20,11 @@ What we have done:
 ## File Description
 In app/src/java/com/example/HelpMeRelax_v_1_0:
 
-1. Welcome, SignUp, LoginActivity: Activity class for 3 screens: Welcome, Signup, Login.
+1. Welcome, SignUp, LoginActivity, MainActivity, HelpActivity,ChatActivity, MakePost, PostSession Activity: Activity class for screens: Welcome, Signup, Login, Home page, Help center, Chatroom, Make new post page, Post session.
 
-2. PostModel, ReplyModel:  
+2. PostModel, ReplyModel: Data Model for post sesion and reply session. 
 
-3. PostDBHelper, ReplyDBHelper: Providing helpful methods for performing CRUD operations on the *post.db* and *reply.db* databases
+3. PostDBHelper, ReplyDBHelper: Providing helpful methods for performing CRUD operations on the *post.db* and *reply.db* databases.
  
 
 ## App Demo 
