@@ -26,6 +26,21 @@ In app/src/java/com/example/HelpMeRelax_v_1_0:
 
 3. PostDBHelper, ReplyDBHelper: Providing helpful methods for performing CRUD operations on the *post.db* and *reply.db* databases.
  
+In app/src/java/com/example/HelpMeRelax_v_1_0/ui:
+ 
+There are 7 folders (funding, health, peer, job, home, logout, Help), each of them contains 2 files: XXFragment and XX ViewModel. They are fragments and ViewModel in the navigation drawer.
+
+app/src/main/res/layout: 
+
+1. activity_chat.xml, activity_help.xml, activity_login.xml, activity_main.xml, activity_make_post.xml, activity_post_session.xml, activity_welcome.xml: These files contain the entire user interface of corresponding screens.
+
+2. app_bar_main.xml :  This file contains blue app bar on the top.
+
+3. fragment_funding.xml, fragment_health.xml, fragment_help.xml, fragment_home.xml, fragment_job.xml, fragment_logout.xml, fragment_peer.xml: These files contain the entire user interface of corresponding fragements in the navigation drawer.
+
+4. list_items.xml, reply_list_items.xml: These files contain the UI of each post and reply.
+
+5. nav_header_main.xml :  This file contains the overall structure of the drawer.
 
 ## App Demo 
 
