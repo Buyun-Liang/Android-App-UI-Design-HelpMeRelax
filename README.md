@@ -31,8 +31,8 @@ In app/src/java/com/example/HelpMeRelax_v_1_0:
 
 https://drive.google.com/file/d/12nfS40Rxv-xnLs0kgs1ryV4r8nItKYWy/view?usp=sharing
 
-## Usage (Android Studio)
-1. Using the output file *HelpMeRelax.apk*: Profile or debug APK (select HelpMeRelax.apk) -> Click HelpMeRelax Folder: HelpMeRelax.apk -> set android simulator to be Pixel 3 XL API 30 -> click run.
+## Usage
+1. Using the output file *HelpMeRelax.apk*: Open Android Studio -> Profile or debug APK (select HelpMeRelax.apk) -> Click HelpMeRelax Folder: HelpMeRelax.apk -> set android simulator to be Pixel 3 XL API 30 -> click run.
 2. Import the whole porject: Open Android Studio -> Import Project (Gradle, Eclipse ADT, etc) -> Set android simulator to be Pixel 3 XL API 30 -> click run.
 
 
